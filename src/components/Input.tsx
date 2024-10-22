@@ -2,7 +2,6 @@ import { Box, Flex, NumberDecrementStepper, NumberIncrementStepper, NumberInput,
 import { Input } from '@chakra-ui/react';
 import { useState } from "react";
 import { Button } from "./Button";
-import { wrap } from "module";
 
 
 export const InputComponent = ({ getPokemon }: { getPokemon: Function }) => {
