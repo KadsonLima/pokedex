@@ -2,6 +2,9 @@ import { Box, Flex, NumberDecrementStepper, NumberIncrementStepper, NumberInput,
 import { Input } from '@chakra-ui/react';
 import { useState } from "react";
 import { Button } from "./Button";
+import { wrap } from "module";
+
+
 export const InputComponent = ({ getPokemon }: { getPokemon: Function }) => {
   const [limit, setLimit] = useState(10);
   const [inputPokemonName, setNamePokemon] = useState('');
@@ -11,8 +14,8 @@ export const InputComponent = ({ getPokemon }: { getPokemon: Function }) => {
   }
 
   return (
-    <Flex pt="48" justify="center" align="flex-start" w="100%" maxW="800px" gap={3} padding={10}>
-      <Box w={"100%"}>
+    <Flex pt="48" justify="center" align="flex-start" w="100%" maxW="800px" gap={3} padding={"20px 0"} flexWrap={"wrap"}>
+      <Box w={"100%"} maxW={"500px"}>
       <Input
         variant='unstyled'
         placeholder="Pesquisar"
