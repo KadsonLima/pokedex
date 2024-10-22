@@ -31,7 +31,7 @@ export const Home = () => {
                 } catch (error) {
                     console.error("Erro ao buscar os detalhes dos Pokémons", error);
                 }
-            } else if (pokemon.id) {
+            } else if (pokemon?.id) {
                 setPokemons([pokemon])
             }
 
