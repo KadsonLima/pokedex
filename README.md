@@ -32,61 +32,60 @@ Este projeto permite que os usuários busquem Pokémons pelo nome e especifiquem
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/pokemon-search-app.git
+   git clone https://github.com/KadsonLima/pokedex.git
    cd pokemon-search-app
+
+2. Crie um arquivo .env na raiz do projeto com a seguinte variável de ambiente:
+
+env
+
+VITE_SERVER_API=https://pokeapi.co/api/v2
+
+
 Instale as dependências:
 
 bash
-Copiar código
+
 npm install
 # ou
 yarn install
 Inicie o servidor de desenvolvimento:
 
 bash
-Copiar código
+
 npm run dev
 # ou
 yarn dev
 
 Estrutura do Projeto
-csharp
-Copiar código
-pokemon-search-app/
-├── src/
-│   ├── components/          # Componentes reutilizáveis
-│   ├── hooks/               # Hooks personalizados
-│   ├── interfaces/          # Interfaces TypeScript
-│   ├── assets/              # Imagens e outros ativos
-│   ├── styles/              # Estilos globais
-│   ├── App.tsx              # Componente principal do aplicativo
-│   └── index.tsx            # Ponto de entrada do aplicativo
-├── public/
-│   ├── index.html           # HTML inicial
-├── package.json             # Dependências e scripts do projeto
-└── README.md                # Documentação do projeto
-Contribuição
-Se você deseja contribuir para este projeto, siga os seguintes passos:
 
-Fork o repositório.
-Crie uma nova branch (git checkout -b feature/nova-feature).
-Faça suas alterações e commit (git commit -m 'Adicionando nova feature').
-Envie para o repositório remoto (git push origin feature/nova-feature).
-Abra um Pull Request.
-Licença
-Este projeto está licenciado sob a MIT License.
+
+  ```bash
+  ├── src/
+  │   ├── components/          # Componentes reutilizáveis
+  │   ├── hooks/               # Hooks personalizados
+  │   ├── interfaces/          # Interfaces TypeScript
+  │   ├── assets/              # Imagens e outros ativos
+  │   ├── styles/              # Estilos globais
+  │   ├── App.tsx              # Componente principal do aplicativo
+  │   └── index.tsx            # Ponto de entrada do aplicativo
+  ├── public/
+  │   ├── index.html           # HTML inicial
+  ├── package.json             # Dependências e scripts do projeto
+  └── README.md                # Documentação do projeto
+
+
+
 
 Contato
 Para dúvidas ou sugestões, entre em contato:
 
 Nome: Kadson Kaio de Lima Dantas
-E-mail: seu-email@example.com
-javascript
-Copiar código
+E-mail: kadson-kaio@hotmail.com
 
 ### Como Usar o `README.md`
 
-1. **Clone o Repositório:** Certifique-se de substituir `https://github.com/seu-usuario/pokemon-search-app.git` pelo URL real do seu repositório no GitHub.
+1. **Clone o Repositório:** Certifique-se de substituir `https://github.com/KadsonLima/pokedex.git` pelo URL real do seu repositório no GitHub.
 2. **Contatos e Licença:** Substitua as informações de contato e a licença conforme necessário.
 3. **Dependências:** Verifique se todas as dependências estão corretamente listadas no seu `package.json`.
 
